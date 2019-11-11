@@ -21,6 +21,7 @@ body {
     position: relative;
     height: 100vh;
     font-weight: 500;
+    overflow: hidden;
 }
 
 .right { float: right; }
@@ -177,26 +178,27 @@ body {
 
 /***** LISTS *****/
 .container {
-    width: 1000px;
-    margin: 60px auto;
+    width: 100%;
+    margin: 50px auto;
 }
 
 .income {
     float: left;
     width: 475px;
-    margin-right: 50px;
+    padding: 20px;
 }
 
 .expenses {
     float: right;
     width: 475px;
+    padding: 20px;
 }
 
 h2 {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .icome__title { color: #28B9B5; }
